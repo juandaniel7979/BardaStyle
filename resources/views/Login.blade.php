@@ -101,7 +101,7 @@
                 </li>
                 </ul>
             </div>
-                <form @submit.prevent="login(usuario)">``
+                <form >
                 <div class="row">
                     <br>
                     <div class="input-field col s6 m-3 formulario">
