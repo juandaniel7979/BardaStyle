@@ -1,11 +1,12 @@
 @extends('layouts.base')
 
 @section('content')
-<header class="masthead w-100">
+
+<header class="masthead w-100" style="float: right">
     <div class="container">
         <div class="masthead-subheading">Bienvenido a BardaStyle!</div>
         <div class="masthead-heading text-uppercase">Nos alegra tenerte por acá!</div>
-        <a class="btn boton3 btn-xl text-uppercase" href="{{url('/login')}}">Aprende mas</a>
+        <a class="btn boton3 btn-xl text-uppercase" href="{{url('/login')}}">Registrate para empezar</a>
     </div>
 </header>
 
@@ -38,7 +39,7 @@
       color: #fff;
       /* background-image: url('http://www.solofondos.com/wp-content/uploads/2016/03/outrun-vaporwave-hd-wallpaper-preview.jpg'); */
 
-      background-color:black;
+      /* background-color:black; */
       background-repeat: no-repeat;
       background-attachment: scroll;
       background-position: center center;
